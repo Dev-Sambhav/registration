@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2c3e50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fd746c,
+    #2c3e50
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fd746c,
+    #2c3e50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#register {
+  margin-top: 85px;
+}
+#login {
+  margin-top: 95px;
+}
+
+form {
+  width: 50%;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.login-form {
+  width: 45%;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 130px auto 0px;
+}
+
+.login-error {
+  margin-right: 12px !important;
+}
+.social-btn {
+  border-radius: 100%;
+  margin-right: 0.7em;
+}
+
+.form-title,
+.login-title {
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 0.7em;
+  margin-top: -2.5rem;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.login-title {
+  margin-top: 0;
+}
+
+label {
+  font-size: 1.2em !important;
+  color: whitesmoke;
+}
+
+.button-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-flex small{
+  font-size: 19px;
+}
+
+.button-flex a{
+  letter-spacing: 1px;
+}
+.button-flex a:hover{
+  color: whitesmoke !important;
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* height: 40px; */
+}
+.footer-text {
+  text-align: center;
+  background: inherit;
+  color: grey;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}

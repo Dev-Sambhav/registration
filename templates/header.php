@@ -12,7 +12,7 @@
     <nav class="navbar header navbar-dark bg-dark p-3 pl-5 pr-5">
         <a href="index.php"><span class="navbar-brand mb-0 h1">Form</span></a>
         <div class="social">
-            <a href="add.php" class="btn social-btn btn-outline-light"><i class="fa-brands fa-facebook"></i></a>
-            <a href="add.php" class="btn social-btn btn-outline-light"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Sambhavsharma13" target="_blank" class="btn social-btn btn-outline-light"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/sambhav____sharma/" target="_blank" class="btn social-btn btn-outline-light"><i class="fa-brands fa-instagram"></i></a>
         </div>
     </nav>

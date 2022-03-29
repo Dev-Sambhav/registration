@@ -154,36 +154,36 @@ if (isset($_POST['submit'])) {
             <div class="form-group col-md-6">
                 <label>Username:</label>
                 <input type="text" class="form-control" name="username" value="<?php echo $username ?>">
-                <small class="form-text text-white"><?php echo $errors['username'] ?></small>
+                <small class="form-text text-danger"><?php echo $errors['username'] ?></small>
             </div>
             <div class="form-group col-md-6">
                 <label>Password:</label>
                 <input type="password" class="form-control" name="password" value="<?php echo $password ?>">
-                <small class="form-text text-white"><?php echo $errors['password'] ?></small>
+                <small class="form-text text-danger"><?php echo $errors['password'] ?></small>
             </div>
         </div>
         <div class="form-group">
             <label>Email:</label>
             <input type="email" class="form-control" placeholder="e.g sam@gmail.com" name="email" value="<?php echo $email ?>">
-            <small class="form-text text-white"><?php echo $errors['email'] ?></small>
+            <small class="form-text text-danger"><?php echo $errors['email'] ?></small>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label>Mobile:</label>
                 <input type="text" class="form-control" name="mobile" value="<?php echo $mobile ?>">
-                <small class="form-text text-white"><?php echo $errors['mobile'] ?></small>
+                <small class="form-text text-danger"><?php echo $errors['mobile'] ?></small>
             </div>
             <div class="form-group col-md-6">
                 <label>PAN:</label>
                 <input type="text" class="form-control" name="pan" value="<?php echo $pan ?>">
-                <small class="form-text text-white"><?php echo $errors['pan'] ?></small>
+                <small class="form-text text-danger"><?php echo $errors['pan'] ?></small>
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label>City</label>
                 <input type="text" class="form-control" name="city" value="<?php echo $city ?>">
-                <small class="form-text text-white"><?php echo $errors['city'] ?></small>
+                <small class="form-text text-danger"><?php echo $errors['city'] ?></small>
             </div>
             <div class="form-group col-md-3">
                 <label for="inputState">State</label>
@@ -197,17 +197,14 @@ if (isset($_POST['submit'])) {
             <div class="form-group col-md-3">
                 <label>Zip</label>
                 <input type="text" class="form-control" name="zip" value="<?php echo $zip ?>">
-                <small class="form-text text-white"><?php echo $errors['zip'] ?></small>
+                <small class="form-text text-danger"><?php echo $errors['zip'] ?></small>
             </div>
         </div>
         <div class="button-flex">
             <button type="submit" name="submit" class="btn btn-secondary btn-lg">Sign in</button>
-            <small class="text-white mr-5 mt-2">Already an account? <a class="font-weight-bold ml-2 text-body" href="login.php">Login</a></small>
+            <small class="text-dark mr-5 mt-2">Already an account? <a class="font-weight-bold ml-2 text-body" href="login.php">Login</a></small>
         </div>
     </form>
 </section>
-
-
-<!-- <?php include("templates/footer.php") ?> -->
 
 </html>

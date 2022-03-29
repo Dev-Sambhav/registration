@@ -49,12 +49,12 @@ if (isset($_POST['submit'])) {
         <div class="form-group row mb-4">
             <label class="col-md-6">Username:</label>
             <input type="text" class="form-control col-md-6" placeholder="Enter username" value="<?php echo $username ?>" name="username" required>
-            <small class="form-text login-error text-white col-md-6 ml-auto mt-0"><?php echo $errors['username'] ?></small>
+            <small class="form-text login-error text-danger col-md-6 ml-auto mt-0"><?php echo $errors['username'] ?></small>
         </div>
         <div class="form-group row mb-5">
             <label class="col-md-6">Password:</label>
             <input type="password" class="form-control col-md-6" placeholder="Enter password" value="<?php echo $password ?>" name="password" required>
-            <small class="form-text login-error text-white col-md-6 ml-auto mt-0"><?php echo $errors['password'] ?></small>
+            <small class="form-text login-error text-danger col-md-6 ml-auto mt-0"><?php echo $errors['password'] ?></small>
         </div>
         <button type="submit" name="submit" class="btn btn-dark btn-lg">Login</button>
     </form>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,17 +7,11 @@
 }
 
 body {
-  background: #2c3e50; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #fd746c,
-    #2c3e50
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #fd746c,
-    #2c3e50
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+  background-size: 10px 10px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .header {
@@ -23,6 +19,10 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.navbar-title {
+  letter-spacing: 3px !important;
 }
 
 #register {
@@ -35,7 +35,13 @@ body {
 form {
   width: 50%;
   padding: 2rem;
+  padding-top: 3.5rem;
+  padding-bottom: 0.5rem;
   margin: 0 auto;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .login-form {
   width: 45%;
@@ -55,7 +61,7 @@ form {
 
 .form-title,
 .login-title {
-  color: whitesmoke;
+  /* color: whitesmoke; */
   text-align: center;
   margin-bottom: 0.7em;
   margin-top: -2.5rem;
@@ -71,23 +77,21 @@ form {
 
 label {
   font-size: 1.2em !important;
-  color: whitesmoke;
 }
 
-.button-flex{
+.button-flex {
   display: flex;
   justify-content: space-between;
 }
 
-.button-flex small{
+.button-flex small {
   font-size: 19px;
 }
 
-.button-flex a{
+.button-flex a {
   letter-spacing: 1px;
 }
-.button-flex a:hover{
-  color: whitesmoke !important;
+.button-flex a:hover {
   text-decoration: none;
 }
 
@@ -106,7 +110,6 @@ footer {
   text-decoration: none;
 }
 
-a{
+a {
   text-decoration: none;
-  color: whitesmoke;
 }

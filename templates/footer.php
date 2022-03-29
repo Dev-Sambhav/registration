@@ -1,4 +1,4 @@
 <footer>
-    <p class="footer-text text-white">&copy; Sambhav Sharma</p>
+    <p class="footer-text text-dark">&copy; Sambhav Sharma</p>
 </footer>
 </body>
